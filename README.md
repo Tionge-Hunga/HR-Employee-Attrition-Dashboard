@@ -6,8 +6,6 @@ The project analyses employee data to understand workforce attrition patterns an
 
 The dashboard provides an interactive view of attrition across gender, overtime, department, work-life balance, and job satisfaction.
 
----
-
 ## Business Problem
 
 Employee attrition can affect remaining staff workload, productivity, and overall organizational performance.
@@ -23,7 +21,6 @@ The analysis focuses on questions such as:
 - Does work-life balance relate to attrition?
 - How does job satisfaction relate to employee turnover?
 
----
 ## Dataset
 
 **Dataset**: IBM HR Analytics Employee Attrition & Performance
@@ -38,7 +35,6 @@ The analysis focuses on questions such as:
 
 > Each record represents an individual employee.
 
----
 ## Objectives
 
 - Analyse overall employee attrition.
@@ -47,8 +43,6 @@ The analysis focuses on questions such as:
 - Examine the relationship between overtime and attrition.
 - Analyse attrition by work-life balance and job satisfaction.
 - Develop an interactive dashboard to communicate insights.
-
----
 
 ## Data Preparation
 
@@ -62,9 +56,7 @@ Key preparation activities included:
 - Preparing fields required for analysis.
 - Creating calculated measures using DAX.
 - Preparing the data model for dashboard development.
-
----
-
+  
 ## Dashboard Features
 
 ### KPI Cards
@@ -118,13 +110,9 @@ These filters allow users to explore employee attrition patterns across differen
 - Dashboard Development
 - Insight Communication
 
----
-
 ## Dashboard Preview
 
 <img width="1233" height="707" alt="HR Employee Attrition Dashboard" src="https://github.com/user-attachments/assets/873ddd2c-c1d0-43fd-90ae-1a4976ef87f1" />
-
----
 
 ## Key Insights
 
@@ -141,8 +129,6 @@ These filters allow users to explore employee attrition patterns across differen
 The analysis suggests that **overtime, work-life balance, job satisfaction, and departments** are important areas to consider when examining employee attrition.
 
 These insights can help organizations identify employee groups experiencing higher turnover and support further investigation into workforce retention strategies.
-
----
 
 ## Recommendations
 
