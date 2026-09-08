@@ -2,7 +2,7 @@
 
 This project presents an interactive **HR Employee Attrition Analysis Dashboard** developed using Microsoft Power BI.
 
-The project analyses employee data to understand workforce attrition patterns and identify factors associated with employee turnover. The data was cleaned and transformed using **Power Query**, while **DAX measures** were created to calculate key performance indicators and support the analysis.
+The project analyses employee data to understand workforce attrition patterns and identify factors contributing to employee turnover. The data was cleaned and transformed using **Power Query**, while **DAX measures** were created to calculate key performance indicators (KPI's) and support the analysis.
 
 The dashboard provides an interactive view of attrition across gender, overtime, department, work-life balance, and job satisfaction.
 
@@ -10,17 +10,17 @@ The dashboard provides an interactive view of attrition across gender, overtime,
 
 ## Business Problem
 
-Employee attrition can affect workforce stability, productivity, and organizational performance.
+Employee attrition can affect remaining staff workload, productivity, and overall organizational performance.
 
-The objective of this analysis was to examine employee attrition patterns and identify groups and workplace factors associated with higher attrition rates.
+The objective of this analysis was to examine employee attrition patterns and identify groups and workplace factors contributing to higher attrition rates.
 
 The analysis focuses on questions such as:
 
 - What is the overall employee attrition rate?
 - Which departments have the highest attrition?
-- Does overtime relate to higher employee attrition?
+- Does overtime contribute to higher employee attrition?
 - Are there differences in attrition by gender?
-- How does work-life balance relate to attrition?
+- Does work-life balance relate to attrition?
 - How does job satisfaction relate to employee turnover?
 
 ---
@@ -33,7 +33,7 @@ The analysis focuses on questions such as:
 ### Dataset Summary
 - 1,470 employee records
 - 35 employee attributes
-- Demographic, job, compensation, satisfaction and performance data
+- Demographic, compensation, satisfaction and performance data
 - Employee attrition data (Yes/No)
 
 > Each record represents an individual employee.
@@ -46,7 +46,7 @@ The analysis focuses on questions such as:
 - Compare attrition across employee demographics.
 - Examine the relationship between overtime and attrition.
 - Analyse attrition by work-life balance and job satisfaction.
-- Develop an interactive dashboard to communicate key workforce insights.
+- Develop an interactive dashboard to communicate insights.
 
 ---
 
@@ -138,7 +138,7 @@ These filters allow users to explore employee attrition patterns across differen
 
 ### Overall Takeaway
 
-The analysis suggests that **overtime, work-life balance, job satisfaction, and department** are important areas to consider when examining employee attrition.
+The analysis suggests that **overtime, work-life balance, job satisfaction, and departments** are important areas to consider when examining employee attrition.
 
 These insights can help organizations identify employee groups experiencing higher turnover and support further investigation into workforce retention strategies.
 
@@ -147,7 +147,7 @@ These insights can help organizations identify employee groups experiencing high
 ## Recommendations
 
 - **Review overtime practices**: Employees working overtime had a much higher attrition rate (**31%**). Management should investigate workload, working hours, staffing levels, and compensation to determine whether excessive overtime is contributing to employee turnover.
-- **Improve work-life balance**: Employees reporting a bad work-life balance had the highest attrition rate (**31%**). Consider workload management, flexible working arrangements, and employee wellbeing initiatives.
+- **Improve work-life balance**: Employees reporting a bad work life balance had the highest attrition rate (**31%**). Consider workload management, flexible working arrangements, and employee wellbeing initiatives.
 - **Investigate job satisfaction**: Employees with low job satisfaction had a **23%** attrition rate. Conduct employee feedback surveys and identify factors affecting satisfaction, such as management, career development, workload, and compensation.
 - **Focus on the Sales department**: Sales had the highest departmental attrition rate at **21%**. Management should investigate whether workload, targets, compensation, or job satisfaction are contributing to turnover in this department.
 - **Further investigate gender differences**: Male employees had a slightly higher attrition rate (**17%**) than female employees (**15%**). Further analysis should examine whether factors such as overtime, job role, income, and job satisfaction explain this difference.
